@@ -87,10 +87,10 @@ Salad_Header:SetBackdrop({
 	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Header"
 })
 
-local Salad_TitleRegion = frame:CreateTitleRegion()
-Salad_TitleRegion:SetWidth(256)
-Salad_TitleRegion:SetHeight(64)
-Salad_TitleRegion:SetPoint("TOP", frame, "TOP", 0, 12)
+--local Salad_TitleRegion = frame:CreateTitleRegion()
+--Salad_TitleRegion:SetWidth(256)
+--Salad_TitleRegion:SetHeight(64)
+--Salad_TitleRegion:SetPoint("TOP", frame, "TOP", 0, 12)
 
 local Salad_Fontstring = Salad_Header:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 Salad_Fontstring:SetPoint("CENTER", Salad_Header, "CENTER", 0, 12)
